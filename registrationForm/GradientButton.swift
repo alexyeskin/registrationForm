@@ -1,11 +1,3 @@
-//
-//  GradientButton.swift
-//  registrationForm
-//
-//  Created by  Юлия on 9/29/19.
-//  Copyright © 2019 Alexandr. All rights reserved.
-//
-
 import UIKit
 
 class GradientButton: UIButton {
@@ -22,5 +14,4 @@ class GradientButton: UIButton {
         
         layer.insertSublayer(gradientLayer, at: 0)
     }
-
 }

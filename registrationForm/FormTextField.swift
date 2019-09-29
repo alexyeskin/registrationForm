@@ -1,11 +1,3 @@
-//
-//  FormTextField.swift
-//  registrationForm
-//
-//  Created by  Юлия on 9/29/19.
-//  Copyright © 2019 Alexandr. All rights reserved.
-//
-
 import UIKit
 
 class FormTextField: UITextField {
@@ -20,5 +12,4 @@ class FormTextField: UITextField {
         layer.addSublayer(bottomLine)
         layer.masksToBounds = true
     }
-    
 }
